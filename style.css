@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    overflow-x: hidden; 
+    background: #640D14;
+}
+
+body h1 {
+    background: #250902;
+    color: white;
+    text-align: center;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    
+}
+
+body h1 img {
+    height: 84%;
+    position: absolute;
+    left: 649px;
+    background: #250902;
+
+}
+
+.container {
+    /* background: #241313; */
+    min-height: calc(100vh - 51px); 
+    display: flex;
+    width: 100%;
+    margin-top: 51px;
+    position: relative;
+}
+
+.img {
+    /* background: #241313; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img h2 {
+    color: white;
+    white-space: normal;
+    overflow: visible;
+    width: 100%;
+    text-align: center;
+    margin-top: 59px;
+}
+
+.musicIMAGE {
+    object-fit: cover;
+    width: 73%;
+    top: 7%;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+}
+
+.musicCONTAINER {
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+}
+
+.musicbox {
+    width: 65vw;
+    height: 61.3px;
+    background: #38040E;
+    color: white;
+    text-align: center;
+    border: 1px solid #651928;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 76px;
+}
+
+.musicbox p {
+    font-size: 23px;
+    top: 14px;
+    position: relative;
+}
+
+.musicbox i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.musicgif {
+    height: 47px;
+    right: -437px;
+    position: relative;
+    width: auto;
+    top: -21px;
+    border: none;
+    border-radius: 95px;
+}
+
+.bottom {
+    background: #250902;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;     bottom: 0;
+    z-index: 1000;
+}
+
+#myProgressBar {
+    width: 75vw; 
+    cursor: pointer;
+}
+.icons {
+    margin: 1px;
+}
+.icons i {
+    font-size: 29px;
+    margin: 6px 8px;
+    cursor: pointer;
+}
+.coverImage {
+    object-fit: cover;
+    height: 7vh;
+    right: -468px;
+    position: relative;
+    top: -28px;
+    border-radius: 26px;
+}
+
+.songInfo {
+    display: flex;
+    left: 234px;
+    position: absolute;
+    align-items: center;
+    top: 36px;
+}
+.songInfo img {
+    height: 29px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.s ease-in;
+}
+.songInfo p {
+    left: -26px;
+    position: relative;
+    overflow: hidden;
+}
